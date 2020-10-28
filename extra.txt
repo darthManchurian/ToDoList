@@ -1,0 +1,7 @@
+#colors:
+	(255, 150, 66) = sunshade = FF9642
+	(100, 100, 100) = dim grey = 646464
+	website: https://colorhunt.co/
+
+#fonts:
+	TBD

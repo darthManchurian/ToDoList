@@ -1,10 +1,10 @@
-class toDoItem
+class ToDoItem
 {
-  static String table ='todo';
+  static String table ='todolist';
   int id;
   String name;
 
-  toDoItem(
+  ToDoItem(
     {
       this.id,
       this.name
@@ -19,9 +19,9 @@ class toDoItem
     return map;
   }
 
-  static toDoItem fromMap(Map<String,dynamic> map)
+  static ToDoItem fromMap(Map<String,dynamic> map)
   {
-    return toDoItem(
+    return ToDoItem(
       id: map['id'],
       name: map['name']);
   }
